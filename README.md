@@ -1,0 +1,2 @@
+# FizzBuzz30
+Fizz-buzz har följande funktionalitet : Listar alla tal mellan 1 och första talet som är slutvärdet, där talet är jämnt delbart med första talet skriver det Fizz istället för talet. Om talet är jämnt delbart med andra divisionstalet skriver det Buzz istället för talet. Samt om talet är dividerbart med båda två skrivs Fizz-Buzz istället för talet.
