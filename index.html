@@ -1,24 +1,24 @@
 ﻿<!DOCTYPE html>
-<html data-ng-app="FizzBuzz">
+<html ng-app="FizzBuzz">
 <head>
   <script src="https://code.angularjs.org/snapshot/angular.js"></script>
   <script src="FizzBuzz.js"></script>
   <title>Fizz-Buzz 3.0</title>
   <meta charset="utf-8" />
 </head>
-<body data-ng-controller="FizzBuzzController">
+<body ng-controller="FizzBuzzController">
   <header>Fizz-Buzz 3.0</header>
   <div>
     <h1>Algoritmen för Fizz Buzz</h1>
     Fizz-buzz har följande funktionalitet : Listar alla tal mellan 1 och första talet som är slutvärdet, där talet är jämnt delbart med första talet skriver det Fizz istället för talet. Om talet är jämnt delbart med andra divisionstalet skriver det Buzz istället för talet. Samt om talet är dividerbart med båda två skrivs Fizz-Buzz istället för talet.
   </div>
   <p>Ange stopp talet:</p>
-  <input data-ng-model="istopp" />
+  <input ng-model="istopp" />
   <p>Första divisionstal:</p>
-  <input data-ng-model="fizz" />
+  <input ng-model="fizz" />
   <p>Andra divisionstal:</p>
-  <input data-ng-model="buzz" />
-  <button data-ng-click="FuzzCalc()">Beräkna</button>
+  <input ng-model="buzz" />
+  <button ng-click="FuzzCalc()">Beräkna</button>
   <hr />
   {{ResFizz}}
 
